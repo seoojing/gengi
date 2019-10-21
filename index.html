@@ -1066,7 +1066,7 @@ h10{color: #484535;position: absolute;z-index: 3; font-weight: 800;}
   <div class="flashlight"></div>
 </div>
 </div>
-<a href="https://seoojing.github.io/6floor_end/">
+<a href="https://seoojing.github.io/simada/">
 	<div id="turn">
 		<img src="turn.png">
 	</div>
@@ -1120,6 +1120,9 @@ h10{color: #484535;position: absolute;z-index: 3; font-weight: 800;}
     </a5>
 </div>
 
+	<audio id="beep">
+		<source src="beep.mp3" type="audio/mpeg">
+	</audio>
 
 
 	</div>
@@ -1144,7 +1147,8 @@ window.onmousemove = function(){
 	fa++;
 	if(fa == 1){ walk.play(); foot.play();}
 }
-
+	soun11.onclick = function(){
+		beep.play();}	
 function lookDiv1 (){ 
   document.getElementById("hin1").style.display="none"; 
 } 
